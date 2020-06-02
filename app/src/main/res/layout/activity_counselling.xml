@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/lightBlue500"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="37dp"
+                android:text="@string/stress_relief_corner"
+                android:layout_gravity="center"/>
+            <TextView android:id="@+id/fstTxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#070809"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="80dp"
+                android:text="@string/for_counselling"
+                android:layout_gravity="center"/>
+
+            <TextView android:id="@+id/bhoomika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#ED105B"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/bhoomika_trust"
+                android:layout_gravity="center"/>
+            <TextView android:id="@+id/org2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#ED105B"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="200dp"
+                android:text="@string/nimhans"
+                android:layout_gravity="center"/>
+            <TextView android:id="@+id/alliswell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#E67C0A"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="280dp"
+                android:text="@string/all_is_well"
+                android:layout_gravity="center"/>
+
+
+            <Button
+                android:id="@+id/buttonCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E8CF74"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/_044_46314726" />
+            <Button
+                android:id="@+id/buttonCall2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_gravity="center"
+                android:background="#E8CF74"
+                android:layout_marginTop="200dp"
+                android:text="@string/_080_46110007" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                app:srcCompat="@drawable/exer" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"
+                app:srcCompat="@drawable/exer1" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="2000dp"
+                app:srcCompat="@drawable/book" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="2500dp"
+                app:srcCompat="@drawable/break2" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="3000dp"
+                app:srcCompat="@drawable/others" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="3500dp"
+                app:srcCompat="@drawable/others2" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="4000dp"
+                app:srcCompat="@drawable/rest" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="4500dp"
+                app:srcCompat="@drawable/rest1" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="5000dp"
+                app:srcCompat="@drawable/diet" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="5500dp"
+                app:srcCompat="@drawable/diet1" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="6000dp"
+                app:srcCompat="@drawable/hyge" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="6500dp"
+                app:srcCompat="@drawable/hyge1" />
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="7000dp"
+                app:srcCompat="@drawable/expre" />
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="7500dp"
+                app:srcCompat="@drawable/expre1" />
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="8000dp"
+                app:srcCompat="@drawable/orga" />
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="8500dp"
+                app:srcCompat="@drawable/orga1" />
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="9000dp"
+                app:srcCompat="@drawable/offer" />
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="9500dp"
+                app:srcCompat="@drawable/offer1" />
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="10000dp"
+                app:srcCompat="@drawable/evade" />
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="10500dp"
+                app:srcCompat="@drawable/evade1" />
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="11000dp"
+                app:srcCompat="@drawable/enter" />
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="11500dp"
+                app:srcCompat="@drawable/enter1" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

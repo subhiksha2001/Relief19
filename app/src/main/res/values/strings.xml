@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Relief-19</string>
+    <string name="help">help</string>
+    <string name="next">next</string>
+    <string name="symptoms">symp</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="signup">Signup</string>
+    <string name="age">Age </string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="gender">Gender </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="what_s_your_gender">What\'s your gender?</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the terms and conditions</string>
+    <string name="save_details">Save</string>
+    <string name="enter_your_phone_no">Enter Phone no.</string>
+    <string name="phone_number">No</string>
+    <string name="email1">Enter Mail id</string>
+    <string name="email">Email id </string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name">UserName </string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="numph">Phone no </string>
+    <string name="relief_bot_responds">Relief Bot Responds</string>
+    <string name="user_say">User say</string>
+    <string name="tap_on_mic">Tap On Mic</string>
+    <string name="relief_19">Relief-19</string>
+    <string name="talk_with_reliefbot"> \t Talk with ReliefBot \t </string>
+    <string name="helpline_numbers"> \t Helpline numbers \t </string>
+    <string name="contact_tracing">Contact Tracing</string>
+    <string name="tips_to_prevent_corona">\t Information centre \t </string>
+    <string name="don_t_panic">don_t_panic</string>
+    <string name="talk_to_reliefbot">Talk to reliefBot</string>
+    <string name="home">Home</string>
+    <string name="helpline">Helpline</string>
+    <string name="register_details"> \t Volunteer Registration \t </string>
+    <string name="covid_cases"> \t covid-19 cases \t </string>
+    <string name="location">Location </string>
+    <string name="enter_your_city">Enter your address</string>
+    <string name="job">Job Details </string>
+    <string name="enter_your_job_details">Enter job details</string>
+
+    <string name="total_cases">Total Cases</string>
+    <string name="deaths">Deaths</string>
+
+    <string name="global_stats">global stats</string>
+    <string name="cases">Cases</string>
+
+    <string name="recovered">Recovered</string>
+
+    <string name="critical">Critical</string>
+
+    <string name="active">Active</string>
+
+    <string name="todaycases">TodayCases</string>
+
+    <string name="totaldeaths">TotalDeaths</string>
+
+    <string name="todaydeaths">TodayDeaths</string>
+    <string name="_0">0</string>
+    <string name="affectedcountries">AffectedCountries</string>
+    <string name="search">Search</string>
+    <string name="information_center">Information Center</string>
+    <string name="volunteer_registration">Volunteer Registration</string>
+    <string name="no_of_cases_desc">no of cases desc</string>
+    <string name="helpline_desc">helpline desc</string>
+    <string name="reliefbot_desc">reliefbot desc</string>
+    <string name="volunteer_desc">volunteer desc</string>
+    <string name="infocent_desc">infocent desc</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="a_friend_in_need_is_friend_indeed">A friend in need is friend indeed</string>
+    <string name="am_i_safe">Am I safe?</string>
+    <string name="your_friend_in_need">YOUR FRIEND IN NEED</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="stress_relief_corner">Stress Relief Corner</string>
+    <string name="bhoomika_trust">Bhoomika Trust</string>
+    <string name="_044_46314726">044–46314726</string>
+    <string name="_080_46110007">080–46110007</string>
+    <string name="nimhans">NIMHANS</string>
+    <string name="for_counselling">For Counselling</string>
+    <string name="all_is_well">All is Well</string>
+    <string name="how_to_handle_kids_during_covid_lockdown">Tips to create awareness on covid-19 among children</string>
+    <string name="comic_source">Comic source</string>
+    <string name="here_s_a_conversation_between_a_mom_and_her_son">Here\'s a conversation between a mom and her son</string>
+    <string name="here_s_the_comic">Here\'s the comic</string>
+    <string name="the_first_challenge_many_parents_are_facing_is_how_to_explain_the_coronavirus_pandemic_to_their_children_particularly_given_the_uncertainty_over_how_long_school_closures_may_last">The first challenge many parents are facing is how to explain the coronavirus pandemic to their children, particularly given the uncertainty over how long school closures may last.</string>
+    <string name="title_activity_pharmacy">Map</string>
+
+
+</resources>

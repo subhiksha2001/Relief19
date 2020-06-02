@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/reg2">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/NameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/name"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/textView"
+            android:hint="@string/enter_your_name"
+            android:inputType="textPersonName" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:layout_below="@+id/NameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/email"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginStart="42dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:hint="@string/email1"
+            android:inputType="textEmailAddress" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AgeLayout"
+        android:layout_below="@+id/Email">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/numph"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/phon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:ems="10"
+            android:hint="@string/enter_your_phone_no"
+            android:inputType="number" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:layout_below="@+id/AgeLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/age"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/ph"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginStart="82dp"
+            android:layout_toEndOf="@+id/ph"
+            android:ems="10"
+            android:hint="@string/enter_your_age"
+            android:inputType="number" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_below="@+id/number">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/location"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/loct"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/loca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/loct"
+            android:ems="10"
+            android:hint="@string/enter_your_city"
+            android:inputType="textLongMessage" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job"
+        android:layout_below="@+id/location">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/job"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/jobd"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/jobdet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/jobd"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:ems="10"
+            android:hint="@string/enter_your_job_details"
+            android:inputType="textLongMessage" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubmitLayout"
+        android:layout_below="@+id/location">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/save_details"
+            android:id="@+id/send"
+            android:background="@drawable/bsty"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+
+
+        android:text="@string/volunteer_registration"
+        android:textColor="#F11717"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

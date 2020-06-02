@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/lightBlue500"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/how_to_handle_kids_during_covid_lockdown"
+                android:layout_gravity="center"/>
+
+            <TextView android:id="@+id/fstTxt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+
+                android:textColor="#020405"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/the_first_challenge_many_parents_are_facing_is_how_to_explain_the_coronavirus_pandemic_to_their_children_particularly_given_the_uncertainty_over_how_long_school_closures_may_last"
+                android:layout_gravity="center"/>
+            <TextView android:id="@+id/fstTxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                android:textColor="#E3820B"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="300dp"
+                android:text="@string/here_s_a_conversation_between_a_mom_and_her_son"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:layout_marginTop="1dp"
+                app:srcCompat="@drawable/convo" />
+            <Button
+                android:id="@+id/buttonCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E8CF74"
+
+                android:layout_gravity="center"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="380dp"
+                android:text="@string/comic_source" />
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="1700dp"
+                app:srcCompat="@drawable/one" />
+
+            <ImageView
+                android:id="@+id/imageview3"
+                android:layout_width="match_parent"
+                android:layout_height="2500dp"
+                app:srcCompat="@drawable/two" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="3500dp"
+                app:srcCompat="@drawable/three" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="4500dp"
+                app:srcCompat="@drawable/four" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="5500dp"
+                app:srcCompat="@drawable/five" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="6500dp"
+                app:srcCompat="@drawable/six" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="7500dp"
+                app:srcCompat="@drawable/seven" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="8500dp"
+                app:srcCompat="@drawable/eight" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="9500dp"
+                app:srcCompat="@drawable/nine" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="10500dp"
+                app:srcCompat="@drawable/ten" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="11500dp"
+                app:srcCompat="@drawable/eleven" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="12500dp"
+                app:srcCompat="@drawable/twelve" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
